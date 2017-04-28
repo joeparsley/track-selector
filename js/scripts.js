@@ -32,7 +32,6 @@ $(document).ready(function() {
     } else if ( totalInput > 20 && totalInput <= 25) {
       $("#csharp-track").show();
     }
-
     event.preventDefault();
   });
 });

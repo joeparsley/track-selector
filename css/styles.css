@@ -1,3 +1,54 @@
 .init-hidden {
   display: none;
 }
+.jumbotron {
+  text-align: center;
+  text-shadow: 3px 3px 6px #000;
+  border: thick solid #000;
+  background-image: url("../img/moss1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e7e403;
+}
+
+body {
+  font-family: 'Baloo', cursive;
+  background-image: url("../img/wood.jpg");
+  color: #e7e403;
+  text-shadow: 3px 3px 6px #000;
+}
+
+#box1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#box2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#box3 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#box4 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#box5 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#button1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 25 %;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-style: groove;
+  border: solid #000;
+}
