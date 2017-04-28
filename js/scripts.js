@@ -3,10 +3,6 @@ var add = function(questionInput1, questionInput2, questionInput3, questionInput
   return questionInput1 + questionInput2 + questionInput3 + questionInput4 + questionInput5;
 }
 
-// var totalInput = function(add) {
-//   return
-// }
-
 
 
 // FRONT-END LOGIC
@@ -33,6 +29,7 @@ $(document).ready(function() {
     } else if ( totalInput > 20 && totalInput <= 25) {
       $("#csharp-track").fadeIn(2000);
     }
+    // USERNAME INSERT IN TO EACH TRACK SUGGESTION
     $(".user-name").text(userInput);
     event.preventDefault();
   });
