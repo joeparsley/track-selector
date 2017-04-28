@@ -6,9 +6,7 @@
 ## User Story
 
 * I want this project to serve as a demonstration of my ability primarily in JavaScript, as well as CSS and HTML.
-*
-*
-*
+
 
 ## Implementation Plan
 
@@ -26,12 +24,7 @@
 ## Setup/Installation Requirements
 
   * No set up or installation required! Simply clone and open the index.html file!
-  *
-  *
-  *
-  *
-  *
-  *
+
 
 
 ## Bugs
@@ -45,9 +38,7 @@ There are no known bugs at this time, but please contact the creator with questi
   * JavaScript
   * JQuery
   * Bootstrap
-  *
-  *
-  *
+  
 
 ## Licensing
 This application features MIT licensing.
