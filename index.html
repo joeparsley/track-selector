@@ -21,6 +21,10 @@
           <h2>Answer the questions down below and this website will suggest a course for you at Epicodus!</h2>
           <!-- QUESTIONS -->
           <form id="questions">
+            <div class="form-group">
+              <label for="age"><h3>What's your name?</h3></label>
+              <input id="user-name" class="form-control" type="text">
+            </div>
             <div id="box1">
               <h3>What appeals to you the most?</h3>
               <select class="form-control" id="question1">
@@ -78,7 +82,9 @@
         <div class="col-md-6">
           <div class="init-hidden" id="ruby-track">
             <h1>Ruby/Rails</h1>
-            <p>Ruby/Rails description</p>
+            <p>Well there, <span class="user-name"></span>  It seems like the Ruby/Rails track at Epicodus might be right for you! Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.
+
+            Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing. </p>
           </div>
           <div class="init-hidden" id="php-track">
             <h1>PHP/Drupal</h1>

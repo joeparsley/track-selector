@@ -13,6 +13,7 @@ var add = function(questionInput1, questionInput2, questionInput3, questionInput
 $(document).ready(function() {
   $("#questions").submit(function(event) {
     // GATHERING INFORMATION VARS
+    var userInput = $("#user-name").val();
     var questionInput1 = parseInt($("#question1").val());
     var questionInput2 = parseInt($("#question2").val());
     var questionInput3 = parseInt($("#question3").val());
@@ -32,6 +33,7 @@ $(document).ready(function() {
     } else if ( totalInput > 20 && totalInput <= 25) {
       $("#csharp-track").show();
     }
+    $(".user-name").text(userInput);
     event.preventDefault();
   });
 });
