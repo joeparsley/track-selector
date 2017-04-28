@@ -61,7 +61,63 @@ p {
   text-align: center;
   text-shadow: 3px 3px 6px #000;
   border: thick solid #000;
-  background-image: url("../img/moss1.jpg");
+  background-image: url("../img/moss2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e7e403;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#php-track {
+  text-align: center;
+  text-shadow: 3px 3px 6px #000;
+  border: thick solid #000;
+  background-image: url("../img/moss2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e7e403;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#java-track {
+  text-align: center;
+  text-shadow: 3px 3px 6px #000;
+  border: thick solid #000;
+  background-image: url("../img/moss2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e7e403;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#css-track {
+  text-align: center;
+  text-shadow: 3px 3px 6px #000;
+  border: thick solid #000;
+  background-image: url("../img/moss2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e7e403;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#csharp-track {
+  text-align: center;
+  text-shadow: 3px 3px 6px #000;
+  border: thick solid #000;
+  background-image: url("../img/moss2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #e7e403;

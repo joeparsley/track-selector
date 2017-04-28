@@ -20,18 +20,18 @@ $(document).ready(function() {
     var questionInput4 = parseInt($("#question4").val());
     var questionInput5 = parseInt($("#question5").val());
     var totalInput = add(questionInput1, questionInput2, questionInput3, questionInput4, questionInput5);
-    $(".init-hidden").hide();
+    $(".init-hidden").fadeOut(300);
     // TRACK-MATCH
     if ( totalInput <= 5 ) {
-      $("#ruby-track").show();
+      $("#ruby-track").fadeIn(2000);
     } else if ( totalInput > 5 && totalInput <= 10) {
-      $("#php-track").show();
+      $("#php-track").fadeIn(2000);
     } else if ( totalInput > 10 && totalInput <= 15) {
-      $("#java-track").show();
+      $("#java-track").fadeIn(2000);
     } else if ( totalInput > 15 && totalInput <= 20) {
-      $("#css-track").show();
+      $("#css-track").fadeIn(3000);
     } else if ( totalInput > 20 && totalInput <= 25) {
-      $("#csharp-track").show();
+      $("#csharp-track").fadeIn(2000);
     }
     $(".user-name").text(userInput);
     event.preventDefault();
